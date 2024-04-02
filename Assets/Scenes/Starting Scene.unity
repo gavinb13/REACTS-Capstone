@@ -290,8 +290,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0894696a4277714383b0375538548a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneNameLowStress: War -High Stress
-  sceneNameMediumStress: War -High Stress
+  sceneNameLowStress: LowStressScene
+  sceneNameMediumStress: Car Crash -Medium Stress
   sceneNameHighStress: War -High Stress
   sceneNameHomeScreen: Starting Screen
 --- !u!4 &305577911
