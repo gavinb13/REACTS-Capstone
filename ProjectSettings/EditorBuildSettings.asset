@@ -9,6 +9,15 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 55daccc09a3b69647bbab145b54a3ab3
   - enabled: 1
+    path: Assets/Scenes/Starting Scene.unity
+    guid: b9ba699f793a709488fb17a71b3901c9
+  - enabled: 1
+    path: Assets/Scenes/LowStressScene.unity
+    guid: fb028ce92e0212843b2276f9e1e1ec5c
+  - enabled: 1
+    path: Assets/Scenes/Car Crash -Medium Stress.unity
+    guid: 2fe612cb60cea0b4db4b44ffaf0df685
+  - enabled: 1
     path: Assets/Scenes/War -High Stress.unity
     guid: 58e73221e0cac5c46b340c6fb62b371a
   m_configObjects:
