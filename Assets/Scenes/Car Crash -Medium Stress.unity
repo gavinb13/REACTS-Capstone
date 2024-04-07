@@ -5538,7 +5538,7 @@ MonoBehaviour:
   sceneNameLowStress: LowStressScene
   sceneNameMediumStress: Car Crash -Medium Stress
   sceneNameHighStress: War -High Stress
-  sceneNameHomeScreen: Starting Screen
+  sceneNameHomeScreen: Starting Scene
 --- !u!4 &2028976246
 Transform:
   m_ObjectHideFlags: 0

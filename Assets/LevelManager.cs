@@ -8,9 +8,9 @@ public class LevelManager : MonoBehaviour
     public string sceneNameLowStress;
     public string sceneNameMediumStress;
     public string sceneNameHighStress;
-    
-    
     public string sceneNameHomeScreen;
+
+
     // Start is called before the first frame update
     void Start()
     {
