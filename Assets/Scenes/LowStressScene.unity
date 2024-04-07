@@ -13336,6 +13336,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fbe8b4327839192419df56a0ae70d325, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  names:
+  - idle
+  - idle
+  - celebration3
+  - celebration
+  - celebration2
+  - idle
 --- !u!1 &2128278644
 GameObject:
   m_ObjectHideFlags: 0
