@@ -6488,7 +6488,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 589a72bbde7d7ed4c8b501e818e3c245, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 51f84017b6adf594eadff3b0d4327592, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -7634,7 +7634,7 @@ MonoBehaviour:
   sceneNameLowStress: LowStressScene
   sceneNameMediumStress: Car Crash -Medium Stress
   sceneNameHighStress: War -High Stress
-  sceneNameHomeScreen: Starting Screen
+  sceneNameHomeScreen: Starting Scene
 --- !u!4 &1322768918
 Transform:
   m_ObjectHideFlags: 0
@@ -8286,7 +8286,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1450510880}
   m_LocalRotation: {x: 0.53176814, y: 0, z: 0, w: 0.84689003}
-  m_LocalPosition: {x: 0, y: 0, z: -1.347}
+  m_LocalPosition: {x: 0, y: 0, z: -1.342}
   m_LocalScale: {x: 0.019999994, y: 0.02, z: 0.019999994}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -8295,7 +8295,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 64.25, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.88, y: 0.383}
+  m_AnchoredPosition: {x: 0.88, y: 0.373}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1450510882
@@ -9588,7 +9588,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1774067850}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -5.8}
+  m_LocalPosition: {x: 0, y: 0, z: 0.7}
   m_LocalScale: {x: 0.48, y: 0.48, z: 0.48}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -9597,8 +9597,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -42.6}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: -0.5, y: -42.6}
+  m_SizeDelta: {x: 148, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1774067852
 MonoBehaviour:
