@@ -47,7 +47,7 @@ public class AIText : MonoBehaviour
         yield return new WaitForSeconds(10);
 
         voiceAI.Play();
-         yield return new WaitForSeconds(4);
+         yield return new WaitForSeconds(15);
 
 
 
