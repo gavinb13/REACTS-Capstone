@@ -7424,6 +7424,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 946730150}
+  - component: {fileID: 946730151}
   m_Layer: 0
   m_Name: Wound
   m_TagString: Wound
@@ -7452,6 +7453,27 @@ Transform:
   - {fileID: 888042585}
   m_Father: {fileID: 2097021359}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &946730151
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 946730149}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.25, y: 0.25, z: 0.25}
+  m_Center: {x: -5.12, y: 2.3, z: -0.95}
 --- !u!1001 &958290885
 PrefabInstance:
   m_ObjectHideFlags: 0
