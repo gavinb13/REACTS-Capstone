@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Unity.Netcode;
 using Unity.Netcode.Transports.UTP;
+using TMPro;
 
 public class TrainingLogic : NetworkBehaviour
 {
@@ -13,6 +14,7 @@ public class TrainingLogic : NetworkBehaviour
     public UnityTransport transport;
 
     public NetworkObject player;
+    public TMP_Text cubeText;
 
 
     private void Awake()
@@ -36,15 +38,18 @@ public class TrainingLogic : NetworkBehaviour
 
     void setConnectionAddress()
     {
-        transport.SetConnectionData("127.0.0.1", 54506, "0.0.0.0");
+        transport.SetConnectionData("192.168.1.18", 54506, "0.0.0.0");
     }
 
     public void Host()
     {
         if (nm.StartHost())
         {
-            //developmentUi.SetActive(false);;
+            //developmentUi.SetActive(false);
+            var newPlayer = Instantiate(player);
+            newPlayer.Spawn();
             Debug.Log("Host  Started");
+            cubeText.text = "Host  Started";
         }
         else Debug.LogError("Failed to start hosting");
     }
@@ -71,14 +76,14 @@ public class TrainingLogic : NetworkBehaviour
             case ConnectionEvent.ClientConnected:
                 if (nm.IsServer)
                 {
-                    var newPlayer = Instantiate(player);
-                    newPlayer.Spawn();
-                    Debug.Log("CLIENT JOINED");
+                    // var newPlayer = Instantiate(player);
+                    // newPlayer.Spawn();
+                    Debug.Log("HOST JOINED");
 
                 }
                 else
                 {
-                    Debug.Log("HOST JOINED");
+                    Debug.Log("CLIENT JOINED");
                 }
                 break;
             case ConnectionEvent.ClientDisconnected:
