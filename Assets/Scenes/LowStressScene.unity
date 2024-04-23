@@ -4775,7 +4775,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 2023584130}
   - {fileID: 996033874}
   m_Father: {fileID: 224636724}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -9951,6 +9950,7 @@ MonoBehaviour:
   sceneNameMediumStress: Car Crash -Medium Stress
   sceneNameHighStress: War -High Stress
   sceneNameHomeScreen: Starting Scene
+  hudText: {fileID: 0}
 --- !u!4 &1322768918
 Transform:
   m_ObjectHideFlags: 0
@@ -15162,19 +15162,19 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2023584129}
-  m_LocalRotation: {x: 0, y: -0.5, z: 0, w: 0.8660254}
-  m_LocalPosition: {x: 0, y: 0, z: 0.047}
-  m_LocalScale: {x: 0.005, y: 0.005, z: 0.005}
+  m_LocalRotation: {x: 0, y: 0.9877429, z: 0, w: 0.15608975}
+  m_LocalPosition: {x: 0, y: 0, z: 2.649}
+  m_LocalScale: {x: 0.01, y: 0.01, z: 0.01}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 832622122}
   - {fileID: 705441777}
   - {fileID: 115040589}
-  m_Father: {fileID: 630304480}
-  m_LocalEulerAnglesHint: {x: 0, y: -60, z: 0}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 162.04, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.16, y: 0.37}
+  m_AnchoredPosition: {x: -3.694, y: 2.601}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!82 &2023584131
@@ -17014,6 +17014,7 @@ SceneRoots:
   - {fileID: 1972639064}
   - {fileID: 1322768918}
   - {fileID: 1408826525}
+  - {fileID: 2023584130}
   - {fileID: 1960498502}
   - {fileID: 2128096925}
   - {fileID: 2006236900}
