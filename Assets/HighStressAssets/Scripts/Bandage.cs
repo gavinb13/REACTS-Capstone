@@ -48,10 +48,14 @@ public class Bandage : MonoBehaviour
         // Access the ParticleSystem component
         //ParticleSystem bloodParticles = wound.transform.Find("Particle System").GetComponent<ParticleSystem>();
         ParticleSystem bloodParticles = wound.GetComponentInChildren<ParticleSystem>(true);
-
+        
         if (bloodParticles != null)
         {
+
+
             bloodParticles.Stop(); // Stop the particle system after 5 seconds
+
+           // wound.setActive(false);
             // Additional feedback can be added here such as sound effects or visual cues
         }
     }

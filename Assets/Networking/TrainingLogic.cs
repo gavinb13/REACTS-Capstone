@@ -15,7 +15,7 @@ public class TrainingLogic : NetworkBehaviour
 
     public NetworkObject player;
     public TMP_Text cubeText;
-
+    public TMP_Text hudText;
 
     private void Awake()
     {
@@ -49,9 +49,14 @@ public class TrainingLogic : NetworkBehaviour
             var newPlayer = Instantiate(player);
             newPlayer.Spawn();
             Debug.Log("Host  Started");
+
             cubeText.text = "Host  Started";
+            hudText.text = "Host started...";
         }
-        else Debug.LogError("Failed to start hosting");
+        else {
+            hudText.text = "There was a problem starting host...";
+            Debug.LogError("Failed to start hosting");
+        } 
     }
 
     public void Player()
@@ -59,6 +64,7 @@ public class TrainingLogic : NetworkBehaviour
         if (nm.StartClient())
         {
             //developmentUi.SetActive(false);
+            hudText.text = "Client started...";
             Debug.Log("Client  Started");
         }
         else Debug.LogError("Failed to start Client");
@@ -78,6 +84,7 @@ public class TrainingLogic : NetworkBehaviour
                 {
                     // var newPlayer = Instantiate(player);
                     // newPlayer.Spawn();
+                    hudText.text = "Host has joined...";
                     Debug.Log("HOST JOINED");
 
                 }
