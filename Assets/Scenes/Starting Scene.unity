@@ -563,7 +563,7 @@ MonoBehaviour:
   sceneNameMediumStress: Car Crash -Medium Stress
   sceneNameHighStress: War -High Stress
   sceneNameHomeScreen: Starting Screen
-  hudText: {fileID: 0}
+  hudText: {fileID: 1508080008}
 --- !u!4 &305577911
 Transform:
   m_ObjectHideFlags: 0
@@ -4434,7 +4434,18 @@ MonoBehaviour:
   transport: {fileID: 1178497908}
   player: {fileID: 4765676578679296971, guid: 35c38a3b0dae4e3489b4fbde73415bcc, type: 3}
   cubeText: {fileID: 1509410191}
-  hudText: {fileID: 0}
+  hudText: {fileID: 1508080008}
+--- !u!114 &1508080008 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 163417156486980666, guid: 8be3d42404496514a90c34fb5aa834fe, type: 3}
+  m_PrefabInstance: {fileID: 7679763762213285869}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1508624947
 GameObject:
   m_ObjectHideFlags: 0
