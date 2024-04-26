@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.007651559, g: 0.0134456195, b: 0.02002243, a: 1}
+  m_IndirectSpecularColor: {r: 0.007619903, g: 0.01340478, b: 0.020023748, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -20817,6 +20817,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 24a0edeac541c38429014bb6b8440dbc, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1538540944}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: 24a0edeac541c38429014bb6b8440dbc, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1538540948}
   m_SourcePrefab: {fileID: 100100000, guid: 24a0edeac541c38429014bb6b8440dbc, type: 3}
 --- !u!1 &1538540943 stripped
 GameObject:
@@ -21035,6 +21038,37 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &1538540948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1538540943}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 081b14986bafdb14aa5d0b73926ccdce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UseUnreliableDeltas: 0
+  SyncPositionX: 1
+  SyncPositionY: 1
+  SyncPositionZ: 1
+  SyncRotAngleX: 1
+  SyncRotAngleY: 1
+  SyncRotAngleZ: 1
+  SyncScaleX: 1
+  SyncScaleY: 1
+  SyncScaleZ: 1
+  PositionThreshold: 0.001
+  RotAngleThreshold: 0.01
+  ScaleThreshold: 0.01
+  UseQuaternionSynchronization: 0
+  UseQuaternionCompression: 0
+  UseHalfFloatPrecision: 0
+  InLocalSpace: 0
+  Interpolate: 1
+  SlerpPosition: 0
 --- !u!4 &1543602006 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: db32e4755aecfea47b671371ab6aa8d1, type: 3}
@@ -21386,6 +21420,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1568579939}
+  - component: {fileID: 1568579940}
   m_Layer: 0
   m_Name: VictimSoldier Interactable
   m_TagString: Untagged
@@ -21409,6 +21444,37 @@ Transform:
   - {fileID: 1738630372}
   m_Father: {fileID: 424421197}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1568579940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1568579938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 081b14986bafdb14aa5d0b73926ccdce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UseUnreliableDeltas: 0
+  SyncPositionX: 1
+  SyncPositionY: 1
+  SyncPositionZ: 1
+  SyncRotAngleX: 1
+  SyncRotAngleY: 1
+  SyncRotAngleZ: 1
+  SyncScaleX: 1
+  SyncScaleY: 1
+  SyncScaleZ: 1
+  PositionThreshold: 0.001
+  RotAngleThreshold: 0.01
+  ScaleThreshold: 0.01
+  UseQuaternionSynchronization: 0
+  UseQuaternionCompression: 0
+  UseHalfFloatPrecision: 0
+  InLocalSpace: 0
+  Interpolate: 1
+  SlerpPosition: 0
 --- !u!1001 &1586599616
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25051,6 +25117,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 38c8f0efe5eaeb742b65a67ab1d5e20b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1896682707}
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: 38c8f0efe5eaeb742b65a67ab1d5e20b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1896682710}
   m_SourcePrefab: {fileID: 100100000, guid: 38c8f0efe5eaeb742b65a67ab1d5e20b, type: 3}
 --- !u!1 &1896682706 stripped
 GameObject:
@@ -25257,6 +25326,37 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 2
+--- !u!114 &1896682710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1896682706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 081b14986bafdb14aa5d0b73926ccdce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UseUnreliableDeltas: 0
+  SyncPositionX: 1
+  SyncPositionY: 1
+  SyncPositionZ: 1
+  SyncRotAngleX: 1
+  SyncRotAngleY: 1
+  SyncRotAngleZ: 1
+  SyncScaleX: 1
+  SyncScaleY: 1
+  SyncScaleZ: 1
+  PositionThreshold: 0.001
+  RotAngleThreshold: 0.01
+  ScaleThreshold: 0.01
+  UseQuaternionSynchronization: 0
+  UseQuaternionCompression: 0
+  UseHalfFloatPrecision: 0
+  InLocalSpace: 0
+  Interpolate: 1
+  SlerpPosition: 0
 --- !u!4 &1911574524 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ac3f39317f983904e9a6de4dee8b177a, type: 3}
