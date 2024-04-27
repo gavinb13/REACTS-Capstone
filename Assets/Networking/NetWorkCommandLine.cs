@@ -13,7 +13,7 @@ public class NetworkCommandLine : MonoBehaviour
        if (Application.isEditor) return;
 
        var args = GetCommandlineArgs();
-
+        
        if (args.TryGetValue("-mode", out string mode))
        {
            switch (mode)
@@ -21,6 +21,7 @@ public class NetworkCommandLine : MonoBehaviour
                case "server":
                    netManager.StartServer();
                    break;
+
                case "host":
                    netManager.StartHost();
                    break;

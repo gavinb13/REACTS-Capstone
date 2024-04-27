@@ -38,7 +38,7 @@ public class TrainingLogic : NetworkBehaviour
 
     void setConnectionAddress()
     {
-        transport.SetConnectionData("172.29.164.237", 7777, "0.0.0.0");
+        transport.SetConnectionData("192.168.1.19", 7777, "0.0.0.0");
     }
 
     public void Host()
