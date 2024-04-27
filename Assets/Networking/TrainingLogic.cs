@@ -38,7 +38,7 @@ public class TrainingLogic : NetworkBehaviour
 
     void setConnectionAddress()
     {
-        transport.SetConnectionData("10.0.0.11", 54506, "0.0.0.0");
+        transport.SetConnectionData("172.29.164.237", 7777, "0.0.0.0");
     }
 
     public void Host()
@@ -64,10 +64,16 @@ public class TrainingLogic : NetworkBehaviour
         if (nm.StartClient())
         {
             //developmentUi.SetActive(false);
+            var newPlayer = Instantiate(player);
+            newPlayer.Spawn();
             hudText.text = "Client started...";
+            cubeText.text = "Client started...";
             Debug.Log("Client  Started");
         }
-        else Debug.LogError("Failed to start Client");
+        else{
+            hudText.text = "Failed to start Client";
+            Debug.LogError("Failed to start Client");
+        }
     }
 
 
@@ -90,6 +96,8 @@ public class TrainingLogic : NetworkBehaviour
                 }
                 else
                 {
+                    hudText.text = "Client started...";
+                    cubeText.text = "Client started...";
                     Debug.Log("CLIENT JOINED");
                 }
                 break;

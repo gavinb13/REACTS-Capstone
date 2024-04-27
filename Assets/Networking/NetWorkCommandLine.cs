@@ -29,6 +29,8 @@ public class NetworkCommandLine : MonoBehaviour
                    netManager.StartClient();
                    break;
            }
+       } else {
+            netManager.StartClient();
        }
    }
 
