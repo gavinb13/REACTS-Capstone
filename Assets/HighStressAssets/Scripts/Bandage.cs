@@ -22,20 +22,7 @@ public class Bandage : MonoBehaviour
             Debug.Log("Co routine done!");
         }
 
-       /* if (other.gameObject.CompareTag("Wound")) // The wound tag is still on the parent empty GameObject
-        {
-       
 
-
-            ParticleSystem bloodParticles = other.transform.Find("Particle System").GetComponent<ParticleSystem>();
-            if (bloodParticles != null)
-            {
-                bloodParticles.Stop(); // Stop the particle system when the bandage touches the wound
-                                       // Additional feedback can be added here
-            }
-
-
-        }*/
 
     }
 
@@ -56,7 +43,7 @@ public class Bandage : MonoBehaviour
             bloodParticles.Stop(); // Stop the particle system after 5 seconds
 
            // wound.setActive(false);
-            // Additional feedback can be added here such as sound effects or visual cues
+       
         }
     }
 }

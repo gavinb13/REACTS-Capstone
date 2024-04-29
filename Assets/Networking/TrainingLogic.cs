@@ -21,6 +21,7 @@ public class TrainingLogic : NetworkBehaviour
     {
         if (Instance != null && Instance != this) Destroy(this);
         else Instance = this;
+        DontDestroyOnLoad(this);
     }
     
     // Start is called before the first frame update
